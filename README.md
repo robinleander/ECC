@@ -1,12 +1,15 @@
 # ECC
 
+This is an educational implementation of ECC and ECDH.
+*_It is not fit for any practical use!_*
+
 ## Usage
 
 ```
-python3 -m venv .
-. bin/activate
-pip install -r requirements.txt
-./main.py
+$ python3 -m venv .
+$ . bin/activate
+$ pip install -r requirements.txt
+$ ./main.py
 ```
 
 ## ECDH
