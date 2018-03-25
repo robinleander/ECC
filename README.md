@@ -1,7 +1,12 @@
 # ECC
 
 This is an educational implementation of ECC and ECDH.
+
 **_It is not fit for any practical use!_**
+
+Please use python's excellent [cryptography](https://pypi.python.org/pypi/cryptography) package instead.
+
+However for a look at a fairly minimal implementation of ECC you are in the right place.
 
 ## Usage
 
