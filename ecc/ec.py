@@ -12,7 +12,7 @@ class NotOnCurve(Exception):
         super().__init__(msg)
 
 
-class Supersingular(Exception):
+class Singular(Exception):
     def __init__(self, msg):
         super().__init__(msg)
 
@@ -171,7 +171,7 @@ class EC:
         else:
             assert b.zp == zp
         if a*a*a*4 + b*b*27 == 0:
-            raise Supersingular('{} is supersingular'.format(self))
+            raise Singular('{} is singular'.format(self))
         self.zp = zp
         self.a = a
         self.b = b
