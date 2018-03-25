@@ -1,7 +1,7 @@
 # ECC
 
 This is an educational implementation of ECC and ECDH.
-*_It is not fit for any practical use!_*
+**_It is not fit for any practical use!_**
 
 ## Usage
 
